@@ -4,7 +4,8 @@
   "description": "",
   "main": "monitor.js",
   "scripts": {
-    "dev": "node monitor"
+    "dev": "node monitor",
+    "start": "node --use_strict monitor.js"
   },
   "author": "Peter Soboyejo <thepcmrtim@gmail.com>",
   "license": "ISC",
@@ -24,5 +25,8 @@
     "underscore": "^1.8.3",
     "valid-url": "^1.0.9",
     "xml2js": "^0.4.17"
+  },
+  "engines": {
+    "node": "4.2.4"
   }
 }
